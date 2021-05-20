@@ -1,6 +1,6 @@
 {
   "name": "@jswork/taro-http-schema",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Http schema for taro.",
   "main": "dist/index.js",
   "scripts": {
@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "@jswork/http-rest-config": "^1.0.0",
-    "@jswork/next-taro-request": "^1.0.8"
+    "@jswork/next-taro-request": "^1.0.9"
   }
 }
