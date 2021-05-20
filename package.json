@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "@jswork/http-rest-config": "^1.0.0",
-    "@jswork/next-taro-request": "^1.0.10"
+    "@jswork/next-taro-request": "^1.0.11"
   }
 }
