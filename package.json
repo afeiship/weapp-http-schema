@@ -1,6 +1,6 @@
 {
   "name": "@jswork/taro-http-schema",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Http schema for taro.",
   "main": "dist/index.js",
   "scripts": {
