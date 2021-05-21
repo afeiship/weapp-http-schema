@@ -1,5 +1,5 @@
-# taro-http-schema
-> Http schema for taro..
+# weapp-http-schema
+> Http schema for weapp.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -8,12 +8,12 @@
 
 ## installation
 ```shell
-npm install @jswork/taro-http-schema
+npm install @jswork/weapp-http-schema
 ```
 
 ## usage
 ```js
-import httpSchema from '@jswork/taro-http-schema';
+import httpSchema from '@jswork/weapp-http-schema';
 
 const apis = httpSchema({
   host: 'https://api.github.com',
@@ -33,16 +33,16 @@ apis.profile().then((res) => {
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/taro-http-schema/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/weapp-http-schema/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/taro-http-schema
-[version-url]: https://npmjs.org/package/@jswork/taro-http-schema
+[version-image]: https://img.shields.io/npm/v/@jswork/weapp-http-schema
+[version-url]: https://npmjs.org/package/@jswork/weapp-http-schema
 
-[license-image]: https://img.shields.io/npm/l/@jswork/taro-http-schema
-[license-url]: https://github.com/afeiship/taro-http-schema/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/weapp-http-schema
+[license-url]: https://github.com/afeiship/weapp-http-schema/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/taro-http-schema
-[size-url]: https://github.com/afeiship/taro-http-schema/blob/master/dist/taro-http-schema.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/weapp-http-schema
+[size-url]: https://github.com/afeiship/weapp-http-schema/blob/master/dist/weapp-http-schema.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/taro-http-schema
-[download-url]: https://www.npmjs.com/package/@jswork/taro-http-schema
+[download-image]: https://img.shields.io/npm/dm/@jswork/weapp-http-schema
+[download-url]: https://www.npmjs.com/package/@jswork/weapp-http-schema
