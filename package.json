@@ -37,6 +37,6 @@
     "@jswork/next-fetch-with-content-type": "^1.0.0",
     "@jswork/next-fetch-with-debug": "^1.0.1",
     "@jswork/next-fetch-with-response-type": "^1.0.0",
-    "@jswork/next-taro-request": "^1.1.0"
+    "@jswork/next-taro-request": "^1.1.1"
   }
 }
