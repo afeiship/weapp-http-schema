@@ -6,7 +6,7 @@ import nxFetchWithDebug from '@jswork/next-fetch-with-debug';
 import nxApplyFetchMilddeware from '@jswork/next-apply-fetch-middleware';
 
 export default (inConfig, inOptions?): any => {
-  const fetch = nxApplyFetchMilddeware([nxFetchWithContentType, nxFetchWithDebug], nxTaroRequest);
+  const fetch = nxApplyFetchMilddeware([nxFetchWithContentType, nxFetchWithDebug])(nxTaroRequest);
   const http = NxFetch.getInstance({
     pipeStyle: 'request',
     fetch,
