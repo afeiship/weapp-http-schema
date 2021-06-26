@@ -31,7 +31,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/http-rest-config": "^1.0.0",
+    "@jswork/http-rest-config": "^1.0.5",
     "@jswork/http-schema": "^1.0.1",
     "@jswork/next-fetch": "^1.1.3",
     "@jswork/next-fetch-with-debug": "^1.0.1",
